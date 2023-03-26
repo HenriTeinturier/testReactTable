@@ -1,0 +1,11 @@
+.container {
+  min-height: 100vh;
+  background-color: lightsteelblue;
+}
+
+.title {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 3rem;
+}
