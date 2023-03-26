@@ -1,6 +1,8 @@
 .container {
   min-height: 100vh;
   background-color: lightsteelblue;
+  /* width: 90%; */
+  /* margin: 0 auto; */
 }
 
 .title {
