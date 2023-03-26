@@ -5,9 +5,23 @@
   /* margin: 0 auto; */
 }
 
+.link {
+  color: #003366;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #003366;
+  text-decoration: underline;
+
+}
+
 .title {
   font-size: 3rem;
-  color: #333;
+  color: #003366;
   text-align: center;
   margin-bottom: 3rem;
 }

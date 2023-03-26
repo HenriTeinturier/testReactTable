@@ -20,8 +20,8 @@ export default function Table({data, columns}: {data: Product[], columns: Column
 
 
   return (
-      <table style={{ width: '90%', margin: 'auto', border: '1px solid black', backgroundColor: '#fafafa'}}>
-        <thead >
+      <table style={{ width: '90%', margin: 'auto', border: '1px solid black', backgroundColor: '#fafafa', borderRadius: '10px'}}>
+        <thead style={{backgroundColor: 'lightgrey'}} >
           <tr >
             {
               columns.map((column) => {
